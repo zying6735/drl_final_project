@@ -1,0 +1,22 @@
+name: drl_final
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - imageio
+  - glfw
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - mujoco=3.1.4
+  - pip:
+      - gym==0.26.2
+      - gym[mujoco]
+      - wandb
+      - setproctitle
